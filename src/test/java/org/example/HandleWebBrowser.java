@@ -70,6 +70,5 @@ public class HandleWebBrowser extends DriverSetup {
 
         }
 
-
     }
 }
