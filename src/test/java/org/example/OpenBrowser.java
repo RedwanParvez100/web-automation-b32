@@ -28,11 +28,11 @@ public class OpenBrowser extends DriverSetup{
         // Load "https://www.google.com" webpage
         browser.get("https://www.google.com");
 
-        // Get page title
+        // Get page Url
         String pageUrl = browser.getCurrentUrl();
         System.out.println(pageUrl);
 
-        // Validate title with text "Google"
+        // Validate Url with Url "Google"
         Assert.assertEquals(pageUrl, "https://www.google.com/");
 
     }
